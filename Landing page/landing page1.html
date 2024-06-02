@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page of CodSoft</title>
+    <link rel="stylesheet" href="landing page1.css">
+</head>
+<body>
+    <header>
+        <!-- home section -->
+      <section class="hero-section">
+         <nav class="navbar">
+             <h2>Burger King</h2>
+             <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li> <a href="#about">About Us</a></li>
+                <li><a href="#oder">Order</a></li>
+                <li><a href="#" id="btn">Sign In</a></li>
+                <li><a href="#" id="btn">Register</a></li>
+            </ul>
+          </nav>
+          <div class="hero-text">
+               <h2>Best Burgers in India.</h2>
+               <p>Treat your date like</p>
+               <h1>ROYALTY</h1>
+               <button>Get Started</button>
+           </div>
+      </section>
+
+      <!-- about section -->
+      <section id="about">
+       <h1>Simple way to eating delicious</h1>
+        <p>"welcome to burger King, where we're passionate about serving of the best burgers in India! Our story began with a simple mission:to create a burger that's not just delicious, but also made with love and care. Our founders, a group of burger enthusiasts, spent years perfecting their craft, experimenting with different ingridents and cooking techniques to create the perfect patty. Today, we're proud to offer menu of mouth-watering burgers, from classic cheeseburgersto more adventurous option like our signture 'Bleu is Loose'burger.So, come on down, grab a seat at the counter, and get ready to indulge in burger that will leave you wanting more."</p> 
+      </section>
+  </header>
+  <footer>
+    <!-- order section -->
+    <section id="oder">
+       <div class="make-oder">
+         <div class="col-container">
+             <div class="content">
+                <h2>Make An <span>Order</span></h2>
+             </div>
+             <form onsubmit="sendEmail(); reset(); return false;" class="form">
+                <input type="text" placeholder="Name" required>
+                <input type="phone" placeholder="Mobile Number" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Address" rows="7" required></textarea>
+                <input type="submit" value="Order Now" class="oder-now">
+              </form>
+         </div>
+    </section>
+  </footer> 
+</body>
+</html>
